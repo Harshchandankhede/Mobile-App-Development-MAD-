@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFDF1"
+    android:padding="30dp">
+
+    <TextView
+        android:text="Social Hub"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#562F00"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnInsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:backgroundTint="#FF9644"
+        android:textColor="#FFFDF1"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp"
+        android:backgroundTint="#FFCE99"
+        android:textColor="#562F00"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X (Twitter)"
+        android:backgroundTint="#FF9644"
+        android:textColor="#FFFDF1"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:backgroundTint="#FFCE99"
+        android:textColor="#562F00"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnTelegram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telegram"
+        android:backgroundTint="#FF9644"
+        android:textColor="#FFFDF1"
+        android:textSize="18sp"/>
+
+</LinearLayout>

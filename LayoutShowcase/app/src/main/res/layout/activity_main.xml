@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream_bg"
+    android:paddingBottom="20dp"> <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btnLinear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Linear"
+                android:textColor="@color/brown_dark"
+                android:backgroundTint="@color/peach_accent"
+                android:textSize="16sp"
+                android:layout_marginEnd="5dp"/> <Button
+            android:id="@+id/btnRelative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Relative"
+            android:textColor="@color/brown_dark"
+            android:backgroundTint="@color/peach_accent"
+            android:textSize="16sp"
+            android:layout_marginStart="5dp"/> </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnTable"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Table"
+                android:textColor="@color/brown_dark"
+                android:backgroundTint="@color/peach_accent"
+                android:textSize="16sp"
+                android:layout_marginEnd="5dp"/> <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Frame"
+            android:textColor="@color/cream_bg"
+            android:backgroundTint="@color/brown_dark"
+            android:textSize="16sp"
+            android:layout_marginStart="5dp"/> </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

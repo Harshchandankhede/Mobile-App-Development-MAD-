@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Pos: (50, 50)"
+        android:textColor="#000000"
+        android:background="#E3F2FD"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="50dp" />
+
+    <Button
+        android:text="Button (100, 150)"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="150dp" />
+
+    <TextView
+        android:text="Pos: (200, 50)"
+        android:textColor="#000000"
+        android:background="#E3F2FD"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_x="200dp"
+        android:layout_y="50dp" />
+
+    <TextView
+        android:text="Pos: (20, 300)"
+        android:textColor="#000000"
+        android:background="#FFEBEE"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_x="20dp"
+        android:layout_y="300dp" />
+
+    <TextView
+        android:text="Pos: (250, 400)"
+        android:textColor="#000000"
+        android:background="#E8F5E9"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_x="250dp"
+        android:layout_y="400dp" />
+
+    <TextView
+        android:text="Pos: (150, 600)"
+        android:textColor="#000000"
+        android:background="#FFF3E0"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="150dp"
+        android:layout_y="600dp" />
+</AbsoluteLayout>

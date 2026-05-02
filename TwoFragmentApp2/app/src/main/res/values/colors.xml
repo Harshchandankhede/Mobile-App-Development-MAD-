@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- App background -->
+    <color name="bg_main">#FCE2DB</color>
+
+    <!-- Input background -->
+    <color name="bg_input">#FFFFFF</color>
+
+    <!-- Button color -->
+    <color name="btn_color">#3F51B5</color>
+
+    <!-- Button text -->
+    <color name="btn_text">#FFFFFF</color>
+
+    <!-- Output text -->
+    <color name="text_output">#222222</color>
+
+    <!-- EditText hint -->
+    <color name="hint_color">#432C7A</color>
+
+</resources>

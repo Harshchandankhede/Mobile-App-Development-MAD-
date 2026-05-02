@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="60dp"
+    android:background="@color/cream_bg">
+
+    <TextView
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/brown_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TableRow>
+        <TextView
+            android:text="User:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editUser"
+            android:hint="Name"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Pass:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editPass"
+            android:inputType="textPassword"
+            android:hint="****"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Email:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editEmail"
+            android:inputType="textEmailAddress"
+            android:hint="mail@site.com"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Phone:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editPhone"
+            android:inputType="phone"
+            android:hint="123-456-7890"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Age:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editAge"
+            android:inputType="number"
+            android:hint="18+"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="City:"
+            android:textSize="18sp"
+            android:textColor="@color/brown_dark"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/editCity"
+            android:inputType="textCapWords"
+            android:hint="New York"
+            android:textColor="@color/brown_dark"
+            android:textColorHint="#FF9644"
+            android:backgroundTint="@color/brown_dark"
+            android:padding="10dp" />
+    </TableRow>
+
+    <Button
+        android:text="Submit"
+        android:backgroundTint="@color/orange_vibrant"
+        android:textColor="@color/cream_bg"
+        android:layout_marginTop="30dp"/>
+
+</TableLayout>

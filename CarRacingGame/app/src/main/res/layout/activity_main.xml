@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Road Background -->
+    <ImageView
+        android:id="@+id/road"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/road" />
+
+<!--    &lt;!&ndash; Enemy Car &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/enemyCar"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="140dp"-->
+<!--        android:layout_gravity="top|center_horizontal"-->
+<!--        android:src="@drawable/enemy_car" />-->
+
+    <!-- Player Car -->
+    <ImageView
+        android:id="@+id/playerCar"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/player_car" />
+
+    <!-- Enemy Car 1 -->
+    <ImageView
+        android:id="@+id/enemyCar1"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_gravity="top|center_horizontal"
+        android:src="@drawable/enemy_car" />
+
+    <!-- Enemy Car 2 -->
+    <ImageView
+        android:id="@+id/enemyCar2"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_gravity="top"
+        android:src="@drawable/enemy_car" />
+
+    <!-- Enemy Car 3 -->
+    <ImageView
+        android:id="@+id/enemyCar3"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/enemy_car" />
+
+
+</FrameLayout>

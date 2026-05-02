@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="2"
+    android:padding="10dp">
+
+    <TextView
+        android:text="Home"
+        android:background="#E3F2FD"
+        android:textColor="#1A237E"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Profile"
+        android:background="#E8F5E9"
+        android:textColor="#1B5E20"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Alerts"
+        android:background="#FFEBEE"
+        android:textColor="#B71C1C"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Messages"
+        android:background="#F3E5F5"
+        android:textColor="#4A148C"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Settings"
+        android:background="#E0F2F1"
+        android:textColor="#004D40"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Gallery"
+        android:background="#FFF3E0"
+        android:textColor="#E65100"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Notes"
+        android:background="#FFFDE7"
+        android:textColor="#F57F17"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:text="Logout"
+        android:background="#F5F5F5"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+</GridLayout>
